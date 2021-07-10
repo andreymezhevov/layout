@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пошивочная &laquo;У Мойши&raquo; :: Главная</title>
+    <title>Пошивочная &laquo;У Мойши&raquo; :: Каталог товаров</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,48 +24,100 @@
         </div>
     </header>
     <main>
-        <section class="intro">
-            <div class="container intro__wrap">
-                <div class="intro__text">
-                    <h1>THE BRAND <span>OF&nbsp;LUXERIOUS <span class="intro__decor">FASHION</span></span></h1>
+        <section class="cathead">
+            <div class="container cathead__wrap">
+                <div class="cathead__wrap__left">
+                    NEW ARRIVALS
+                </div>
+                <div class="cathead__wrap__right">
+                    <a href="#">HOME</a> / <a href="#">MEN</a> / <span class="current"><a href="#">NEW
+                            ARRIVALS</a></span>
                 </div>
             </div>
         </section>
-        <section class="category">
-            <div class="container category__wrap">
-                <div class="category__item category__for-women">
-                    <div class="category__text">
-                        <span>30% OFF</span>
-                        <h3>FOR WOMEN</h3>
-                    </div>
-                </div>
-                <div class="category__item category__for-men">
-                    <div class="category__text">
-                        <span>HOT DEAL</span>
-                        <h3>FOR MEN</h3>
-                    </div>
-                </div>
-                <div class="category__item category__for-kids">
-                    <div class="category__text">
-                        <span>NEW ARRIVALS</span>
-                        <h3>FOR KIDS</h3>
-                    </div>
-                </div>
-                <div class="category__item category__accesories">
-                    <div class="category__text">
-                        <span>LUXIROUS & TRENDY</span>
-                        <h3>ACCESORIES</h3>
-                    </div>
-                </div>
+        <section class="catnav">
+            <div class="container catnav__wrap">
+                <details class="catnav__wrap__filter">
+                    <summary>filter<img class="filter-black" src="img/filter-black.svg" alt=""><img class="filter-pink"
+                            src="img/filter-pink.png" alt=""></summary>
+                    <div class="catnav__wrap__filter__content">
+                        <details>
+                            <summary>category</summary>
+                            <ul>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                <li><a href="#">Jackets & Coats</a></li>
+                                <li><a href="#">Polos</a></li>
+                                <li><a href="#">Shirts</a></li>
+                                <li><a href="#">Shoes</a></li>
+                                <li><a href="#">Sweaters & Knits</a></li>
+                                <li><a href="#">T-Shirts</a></li>
+                                <li><a href="#">Tanks</a></li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>brand</summary>
+                        </details>
+                        <details>
+                            <summary>designer</summary>
+                        </details>
 
+                    </div>
+                </details>
+                <div class="catnav__wrap__feature">
+                    <details>
+                        <summary>TRENDING NOW<img class="down" src="img/down.png" alt=""></summary>
+                    </details>
+                    <details>
+                        <summary>SIZE<img class="down" src="img/down.png" alt=""></summary>
+                        <div class="catnav__wrap__feature__content">
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="xs"
+                                        value="xs"><span>XS</span></label><br>
+                            </div>
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="s"
+                                        value="s"><span>S</span></label><br>
+                            </div>
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="m"
+                                        value="m"><span>M</span></label><br>
+                            </div>
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="xl"
+                                        value="xl"><span>XL</span></label>
+                            </div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>PRICE<img class="down" src="img/down.png" alt=""></summary>
+                        <div class="catnav__wrap__feature__content">
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="xs" value="xs"><span>до 10000
+                                        рублей</span></label><br>
+                            </div>
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="s" value="s"><span>до 20000
+                                        рублей</span></label><br>
+                            </div>
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="m" value="m"><span>до 50000
+                                        рублей</span></label><br>
+                            </div>
+                            <div class="catnav__wrap__feature__content__checkbox">
+                                <label class="my_checkbox"><input type="checkbox" name="xl" value="xl"><span>до 100000
+                                        рублей</span></label>
+                            </div>
+                        </div>
+
+                    </details>
+                </div>
             </div>
         </section>
         <section class="products">
             <div class="container">
-                <div class="products__header">
-                    <h2>Fetured Items</h2>
-                    <p>Shop for items based on what we featured in this week</p>
-                </div>
                 <div class="products__wrap">
                     <div class="products__card">
                         <div class="products__hover">
@@ -84,7 +136,7 @@
                     <div class="products__card">
                         <div class="products__hover">
                             <div class="decor"></div>
-                            <img src="img/card2.png" alt="">
+                            <img src="img/card7.png" alt="">
                         </div>
                         <div class="products__text">
                             <a href="#">
@@ -126,7 +178,7 @@
                     <div class="products__card">
                         <div class="products__hover">
                             <div class="decor"></div>
-                            <img src="img/card5.png" alt="">
+                            <img src="img/card8.png" alt="">
                         </div>
                         <div class="products__text">
                             <a href="#">
@@ -140,7 +192,49 @@
                     <div class="products__card">
                         <div class="products__hover">
                             <div class="decor"></div>
-                            <img src="img/card6.png" alt="">
+                            <img src="img/card9.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <a href="#">
+                                <h3>ELLERY X M'O CAPSULE</h3>
+                            </a>
+                            <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                                Ellery teams up with Moda Operandi.</p>
+                            <span>$52.00</span>
+                        </div>
+                    </div>
+                    <div class="products__card">
+                        <div class="products__hover">
+                            <div class="decor"></div>
+                            <img src="img/card10.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <a href="#">
+                                <h3>ELLERY X M'O CAPSULE</h3>
+                            </a>
+                            <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                                Ellery teams up with Moda Operandi.</p>
+                            <span>$52.00</span>
+                        </div>
+                    </div>
+                    <div class="products__card">
+                        <div class="products__hover">
+                            <div class="decor"></div>
+                            <img src="img/card11.png" alt="">
+                        </div>
+                        <div class="products__text">
+                            <a href="#">
+                                <h3>ELLERY X M'O CAPSULE</h3>
+                            </a>
+                            <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                                Ellery teams up with Moda Operandi.</p>
+                            <span>$52.00</span>
+                        </div>
+                    </div>
+                    <div class="products__card">
+                        <div class="products__hover">
+                            <div class="decor"></div>
+                            <img src="img/card12.png" alt="">
                         </div>
                         <div class="products__text">
                             <a href="#">
@@ -152,8 +246,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="products__view-all">
-                    <button class="all-products">Browse All Product</button>
+                <div class="products__pagi">
+                    <span class="products__pagi__number">
+                        <span><a class="pagi-left" href=""> &lsaquo; </a></span>
+                        <span><a class="current" href="#">1</a></span>
+                        <span><a href="#">2</a></span>
+                        <span><a href="#">3</a></span>
+                        <span><a href="#">4</a></span>
+                        <span><a href="#">5</a></span>
+                        <span><a href="#">6</a></span>
+                        <span>...</span>
+                        <span><a href="#">20</a></span>
+                        <span><a class="pagi-right" href="#"> &rsaquo; </a></span>
+                    </span>
                 </div>
             </div>
         </section>
